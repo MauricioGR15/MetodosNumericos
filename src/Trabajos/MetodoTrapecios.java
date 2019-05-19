@@ -15,8 +15,8 @@ public class MetodoTrapecios {
 		System.out.println("INSTITUTO TECNOLOGICO DE CULIACAN \nINGENIERA EN SISTEMAS COMPUTACIONALES"
 				+ "\nMAURICIO GARCIA RUBIO \nMETODOS NUMERICOS \nMETODO DE LOS TRAPECIOS\nHORA: 10-11\n");
 
-		System.out.println("PROBLEMA\nEn una juguetería la producción de un empleado está dada y definida \npor cada día" +
-				"del mes que trabaja por la integral definida en f(x) = x^3 - sen (x+1) " +
+		System.out.println("PROBLEMA\nEn una juguetería la producción de un empleado está dada y definida \npor " +
+				"cada día del mes que trabaja por la integral definida en f(x) = x^3 - sen (x+1) " +
 				"\n ¿Cuál será la producción del empleado del día 2 al día 6 del mes?");
 
 
@@ -34,12 +34,7 @@ public class MetodoTrapecios {
 		totC = sc.nextInt();
 	}
 
-
-	
-	
-
 	public static void main(String[] args) {
 		new MetodoTrapecios();
 	}
-
 }
